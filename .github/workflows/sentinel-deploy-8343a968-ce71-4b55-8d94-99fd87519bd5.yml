@@ -24,7 +24,7 @@ jobs:
       resourceGroupName: 'rg-logs-prod-japaneast-001'
       workspaceName: 'la-general-prod-japaneast-001'
       workspaceId: '2ab9fa59-f18d-4a95-980a-8d19a6eb9578'
-      directory: '${{ github.workspace }}'
+      directory: '${{ github.workspace }}/SentinelContent'
       cloudEnv: 'AzureCloud'
       creds: ${{ secrets.AZURE_SENTINEL_CREDENTIALS_8343a968ce714b558d9499fd87519bd5 }}
       contentTypes: 'AnalyticsRule,Workbook'
